@@ -1,0 +1,9 @@
+- Run "pyside6-designer" to edit the GUI.
+- Open "interface.ui" then change the design of the GUI.
+
+- Run "pyside6-rcc -o resources_rc.py resources.qrc" to convert resources icons/images to python code.
+
+- Run "python3 main.py" to lauch the GUI app.
+
+- Using Dark-Mode: "import qdarktheme"
+- Apply the complete dark theme to your Qt App. "qdarktheme.setup_theme()"" #Reference: https://pypi.org/project/pyqtdarktheme/
